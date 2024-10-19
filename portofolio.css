@@ -1,0 +1,104 @@
+/* style css de ma page web*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dce7c6;
+    color: black; 
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(247, 251, 253);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid rgb(57, 122, 244);
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    object-fit: cover;
+    
+}
+
+
+h1
+{
+  font-size: 32px;
+  text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(14, 15, 14);
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px #888;  
+  -webkit-box-shadow: 2px 2px 6px #888;  
+  box-shadow:2px 2px 6px #888;  
+  text-align:center;
+  display:block;
+  margin:16px;
+  background-image:url(images/background-h1-wood.jpg);  
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: disc;
+    margin: 20px 0;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
